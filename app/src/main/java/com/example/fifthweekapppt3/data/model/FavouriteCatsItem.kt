@@ -4,9 +4,7 @@ import kotlinx.serialization.SerialName
 import kotlinx.serialization.Serializable
 
 @Serializable
-data class CatItem(
-    @SerialName("id")
-    val id: String,
-    @SerialName("url")
-    val url: String,
+class FavouriteCatsItem(
+    @SerialName("image_id")
+    val image_id: String,
 )
